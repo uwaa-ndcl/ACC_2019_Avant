@@ -4,7 +4,7 @@ they should be changed by each user
 '''
 
 # blender
-blender_models_dir = '/home/trevor/pose_estimation/blender_models/'
+blender_models_dir = '/home/trevor/ACC_2019_Avant/blender_models/'
 
 # gramian
 # ramdisk must first be created!!!
