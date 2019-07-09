@@ -1,0 +1,18 @@
+I obtained this model from
+
+https://www.blendswap.com/blends/view/69075
+
+These are the additional modifications I made to the model. 
+
+
+1. I had to parent all of the objects to the "main" object, which I decided should be the car body ("** FIAT 600 **" in the model). To do this, I clicked on "** FIAT 600 **" in the Outliner editor, so that its text highlighted in white. This step is important as it will determine which object the other objects are parented to. Next, I selected all of the objects using CTRL+b and dragging the window over all of the objects. Then, in the toolbar in the 3D View editor, I went to Object -> Parent -> Object, then Set Parent To -> Object. Lastly, I renamed "** FIAT 600 **" to "all_parts".
+
+2. To make some of the parts movable, I had to remove rigid body settings from all objects that had been added as rigid bodies. This was done by going to "Properties -> Physics" and clicking the buttom to remove rigid body settings from the object.
+
+3. I had to rotate the car so a rotation of 0 corresponded to the x-axis corresponding to "forward" and the z-axis corresponding to "up". To do this, I selected all of the objects by pressing "b" and dragging the window over all of the objects. To "zero" the rotation for all objects, I used CTRL+a and then Apply -> Rotation. Then, for each part, I went to Properties -> Modifiers, went to the Mirror modifier (if it existed for that part), and changed the axis from Z to Y.
+
+4. I zeroed the location of "all_parts" by changing the location of all_parts so that the approximate center of mass of the object corresponded to the origin of Blender's coordinate frame. I then used CTRL+a and then Apply -> Location to zero the location. 
+
+5. I made the lettering on the license plates and rear of the car invisible in rendering.
+
+6. To render the windshield and windows as invisible in Cycles Render, I had to add a new material using Nodes.
