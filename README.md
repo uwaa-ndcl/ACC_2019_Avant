@@ -1,10 +1,10 @@
 # Observability Properties of Object Pose Estimation
 
-![Image of Chairs](media/fig4.png)
+![Image of Chairs](images/fig4.png)
 
 This is the code for the paper
 
-**Observability Properties of Object Pose Estimation**
+[**Observability Properties of Object Pose Estimation**](https://ieeexplore.ieee.org/document/8814791)
 
 Trevor Avant & Kristi A. Morgansen, *American Control Conference (ACC) 2019*
 
