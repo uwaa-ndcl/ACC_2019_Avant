@@ -8,7 +8,7 @@ This is the code for the paper
 
 Trevor Avant & Kristi A. Morgansen, *American Control Conference (ACC) 2019*
 
-## Code
+## code
 
 Before running this code you should install [Blender](https://www.blender.org), add this repository to your `PYTHONPATH` (because the `pose_estimation` directory is structured as a Python package), and change the directories in `pose_estimation/directories.py` to directories on your computer.
 
