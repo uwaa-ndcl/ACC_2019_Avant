@@ -69,6 +69,7 @@ bpy.data.scenes['Scene'].render.image_settings.file_format = 'PNG'
 bpy.data.scenes['Scene'].render.image_settings.color_mode = 'RGBA'
 bpy.data.scenes['Scene'].cycles.film_transparent = True
 bpy.data.scenes['Scene'].render.engine = 'CYCLES'
+#bpy.data.scenes['Scene'].render.engine = 'BLENDER_EEVEE'
 bpy.data.scenes['Scene'].cycles.device = 'GPU'
 
 # compute gramian
